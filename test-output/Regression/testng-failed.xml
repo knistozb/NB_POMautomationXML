@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression]">
+  <test thread-count="5" name="crmTest(failed)">
+    <parameter name="zip" value="12345"/>
+    <parameter name="country" value="Nepal"/>
+    <parameter name="address" value="123 Lake View Street"/>
+    <parameter name="city" value="Dallas"/>
+    <parameter name="dashboardValidationText" value="Dashboard"/>
+    <parameter name="fullName" value="Nish&#039;s Excel"/>
+    <parameter name="addCustomerValidationText" value="Add Contact"/>
+    <parameter name="listCustomerValidationText" value="Image"/>
+    <parameter name="password" value="abc123"/>
+    <parameter name="phone" value="1234567"/>
+    <parameter name="company" value="Techfios"/>
+    <parameter name="state" value="Texas"/>
+    <parameter name="email" value="nish@demo.com"/>
+    <parameter name="username" value="demo@techfios.com"/>
+    <classes>
+      <class name="nb_c11s9_Test_pkg.AddCustomerTest">
+        <methods>
+          <include name="userShouldBeAbleToAddCustomer" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- nb_c11s9_Test_pkg.AddCustomerTest -->
+    </classes>
+  </test> <!-- crmTest(failed) -->
+</suite> <!-- Failed suite [Regression] -->

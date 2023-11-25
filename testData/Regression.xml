@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="Regression">
+
+	<test name="crmTest">
+		<parameter name="userName" value="demo@techfios.com"></parameter>
+		<parameter name="password" value="abc123" />
+		<parameter name="dashboardValidationText" value="Dashboard" />
+		<parameter name="listCustomerValidationText" value="Image" />
+		<parameter name="addCustomerValidationText" value="Add Contact" />
+		<parameter name="fullName" value="Nish's Excel" />
+		<parameter name="company" value="Techfios" />
+		<parameter name="email" value="nish@demo.com" />
+		<parameter name="phone" value="1234567" />
+		<parameter name="address" value="123 Lake View Street" />
+		<parameter name="city" value="Dallas" />
+		<parameter name="country" value="Nepal" />
+		<parameter name="state" value="Texas" />
+		<parameter name="zip" value="12345" />
+		
+	
+		<classes>
+<!--  			<class>"test_pkg_name.className"</class>  -->
+<!-- 			<class name="nb_c11s9_Test_pkg.LoginTest"></class> -->
+<!-- 			<class name="nb_c11s9_Test_pkg.AddCustomerTest"></class> -->
+			<class name="nb_c11s9_Test_pkg.ListCustomersTest"></class>
+
+
+
+		</classes>
+
+
+	</test>
+</suite>
+
+
+
+
+
